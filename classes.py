@@ -8,21 +8,21 @@ class Pessoa():
     def comer (self):
         if self.acao_atual== None:
             self.acao_atual='comendo'
-            print(f'{self.nome} está  comendo.')
+            print(f'{self.nome} está  comendo Sushi.')
         else:
             print(f'{self.nome} já está {self.acao_atual} não pode comer agora.')
 
     def parar_de_comer(self):
         if self.acao_atual=='comendo' :
             self.acao_atual= None
-            print(f'{self.nome} parou de comer.')
+            print(f'{self.nome} parou de comer Sushi.')
         else:
             print(f'{self.nome} não está comendo agora.')
 
     def falando(self):
         if self.acao_atual== None:
             self.acao_atual='falando'
-            print(f'{self.nome} está falando.')
+            print(f'{self.nome} está falando Olá Terraqueos .')
         else:
             print(f'{self.nome} já está {self.acao_atual} não pode falar agora.')
 
@@ -30,7 +30,7 @@ class Pessoa():
     def parar_de_falar(self):
         if self.acao_atual == 'falando':
             self.acao_atual= None
-            print(f'{self.nome} parou de falar')
+            print(f'{self.nome} parou de falar Olá Terraqueos')
         else:
             print(f'{self.nome}  não está falando agora.')
 
